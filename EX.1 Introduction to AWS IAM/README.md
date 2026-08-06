@@ -68,6 +68,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** Deepak JG 212224220019
-**Course:** Introduction to Cloud Computing  
+**Name:** V Kamalesh Vijayakumar 212224110028
+**Course:** Cloud Computing  
 
