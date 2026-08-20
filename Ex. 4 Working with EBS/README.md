@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name** : V Kamalesh Vijayakumar
+* **Register Number**: 212224110028
+* **Date of Submission**: 20/8/2026
 
 ---
 
@@ -80,11 +80,11 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.  I logged into the AWS Management Console, opened the EC2 Dashboard, and explored the Elastic Block Store (EBS) section to understand different volume types such as gp2, gp3, and HDD volumes.
+2. I created a new EBS volume by selecting the required size and volume type and ensured that the volume was created in the same Availability Zone as my EC2 instance.
+3. After creating the volume, I attached the EBS volume to the running EC2 instance as an additional storage device using the EC2 console.
+4. Then I connected to the EC2 instance using SSH, formatted the new volume using the ext4 file system, and mounted it to a directory (such as /mnt/ebs). I created sample files to store data in the mounted volume.
+5. Finally, I rebooted the EC2 instance and verified that the files stored in the EBS volume were still available, confirming data persistence in Amazon EBS.
 
 ---
 
@@ -92,19 +92,20 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1263" height="528" alt="image" src="https://github.com/user-attachments/assets/8ec06354-3ac4-449c-b59d-947a3c02c52d" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1261" height="535" alt="image" src="https://github.com/user-attachments/assets/6a60ecbf-4a06-49b0-a6b6-2eba2a27658a" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1254" height="429" alt="image" src="https://github.com/user-attachments/assets/cc2b0921-6a36-4e58-9571-8cf297d4c06f" />
 
 ---
 
