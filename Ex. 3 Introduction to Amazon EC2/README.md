@@ -2,9 +2,10 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: V Kamalesh Vijayakumar
+* **Register Number**: 212224110028
+* **Date of Submission**: 13/8/2026
+
 
 ---
 
@@ -98,11 +99,11 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. I logged into the AWS Management Console and opened the Amazon EC2 service, where I explored the EC2 dashboard and its features such as Instances, AMIs, Key Pairs, and Security Groups.
+2. I launched a new EC2 instance by selecting Amazon Linux 2 AMI and the t2.micro instance type, then created and downloaded a key pair and configured the security group to allow SSH (Port 22) and HTTP (Port 80) access
+3. After the instance started running, I noted the public IP address and connected to the EC2 instance using SSH with the downloaded key pair file.
+4.I performed basic instance operations such as Start, Stop, and Reboot from the EC2 console and observed the instance state changes.
+5. Finally, I monitored the instance performance using the Monitoring tab and then terminated the instance after completing the experiment to avoid extra charges.
 
 ---
 
@@ -110,19 +111,21 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1260" height="557" alt="image" src="https://github.com/user-attachments/assets/8931ecea-3609-4a21-ab64-e2d71ef795fb" />
+)
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1255" height="532" alt="image" src="https://github.com/user-attachments/assets/ceddc0c5-b024-4112-afc0-97588ca473e4" />
 
----
+
+
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1256" height="545" alt="image" src="https://github.com/user-attachments/assets/ccdf41b7-5ffa-4b65-b3f5-112dc0fe3edd" />
 
 ---
 
